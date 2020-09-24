@@ -23,7 +23,10 @@ public class Kursi {
     public void setPenumpang(Penumpang penumpang){
         this.penumpang = penumpang;
     }
-    
+    public Penumpang getPenumpang() {
+       return penumpang;
+    }
+
     public String info() {
         String info = "";
         info += "Nomor: " + nomor + "\n";

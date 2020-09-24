@@ -26,6 +26,9 @@ public class Pelanggan {
     public void setMobil(Mobil mobil){
         this.mobil = mobil;
     }
+    public Mobil getMobil(){
+        return mobil;
+    }
     public void setSopir(Sopir sopir){
         this.sopir = sopir;
     }
