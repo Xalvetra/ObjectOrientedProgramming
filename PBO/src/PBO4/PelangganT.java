@@ -48,7 +48,8 @@ public class PelangganT {
         return jumlah;
     }
     public int hitungHargaTotal() {
-        return barang.hitungHargaBarang(jumlah) + supplier.hitungBiayaSupplier(jumlah);
+        return barang.hitungHargaBarang(jumlah) + 
+                supplier.hitungBiayaSupplier(jumlah);
     }
     public String info() {
         String info = "";
@@ -56,10 +57,6 @@ public class PelangganT {
         info += "Id: " + this.id + "\n";
         info += "Alamat: " + this.alamat + "\n";
         return info;
-    }
-
-    Object setNama(PelangganT p) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
 

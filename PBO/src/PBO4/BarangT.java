@@ -1,5 +1,4 @@
 package PBO4;
-
 public class BarangT {
     private String nama;
     private String merk;
@@ -7,7 +6,6 @@ public class BarangT {
     
     BarangT() {
     }
-    
     public void setJenis(String nama) {
         this.nama = nama;
     }

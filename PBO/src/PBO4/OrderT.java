@@ -1,5 +1,4 @@
 package PBO4;
-
 public class OrderT {
     private int id;
     private String tanggal;
@@ -8,7 +7,6 @@ public class OrderT {
     
     OrderT() {
     }
-    
     OrderT(int id, String tanggal, String status, int sisa_pembayaran) {
         this.id = id;
         this.tanggal = tanggal;

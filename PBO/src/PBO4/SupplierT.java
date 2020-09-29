@@ -1,5 +1,4 @@
 package PBO4;
-
 public class SupplierT {
     private String nama;
     private String alamat;
@@ -7,7 +6,6 @@ public class SupplierT {
     
     SupplierT() {
     }
-    
     public void setToko(String nama) {
         this.nama = nama;
     }
