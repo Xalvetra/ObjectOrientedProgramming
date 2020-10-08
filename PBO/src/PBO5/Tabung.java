@@ -10,10 +10,10 @@ public class Tabung extends Bangun {
         this.t = t;
     }
     public void setSuperPhi(double phi) {
-        this.phi = phi;
+        super.phi = phi;
     }
     public void setSuperR(int r) {
-        this.r = r;
+        super.r = r;
     }
     public void volume() {
         System.out.println("Volume Tabung adalah : " + 

@@ -15,7 +15,7 @@ public class Staff extends Karyawan {
     }
     public void tampilDataStaff(){
         super.tampilDataKaryawan();
-        System.out.println("Lembuar     = "+lembur);
+        System.out.println("Lembur     = "+lembur);
         System.out.println("Potongan    = "+potongan);
         System.out.println("Total Gaji  = "+(gaji+lembur-potongan));
     }
