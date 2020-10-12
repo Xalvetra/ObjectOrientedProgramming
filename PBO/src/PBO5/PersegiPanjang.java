@@ -4,7 +4,7 @@ package PBO5;
  *
  * @author Faris Ikhlasul H
  */
-public class PersegiPanjang {
+public class PersegiPanjang extends BangunDatar {
 
     float panjang;
     float lebar;

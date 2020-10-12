@@ -6,7 +6,6 @@ package PBO5;
  */
 public class Mac extends Laptop{
     public String security;
-
     public Mac() {
         
     }

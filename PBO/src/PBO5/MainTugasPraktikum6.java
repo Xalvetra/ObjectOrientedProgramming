@@ -4,7 +4,7 @@ package PBO5;
  *
  * @author Faris Ikhlasul H
  */
-public class MainTugasTeori6 {
+public class MainTugasPraktikum6 {
 
     public static void main(String[] args) {
         Windows W = new Windows("Windows Hello", "Li-Polymer", "Asus", 3, 16, "Ryzen 7");
