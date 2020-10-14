@@ -1,5 +1,4 @@
 package PBO5;
-
 /**
  *
  * @author Faris Ikhlasul H
@@ -9,8 +8,7 @@ public class Komputer {
     public int kecProcessor;
     public int sizeMemory;
     public String jenisProcessor;
-    public Komputer(){
-        
+    public Komputer(){    
     }
     public Komputer(String merk, int kecProcessor, int sizeMemory, String jenisProcessor) {
         this.merk = merk;
