@@ -28,14 +28,14 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/PascaSarjana.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/interfacemain.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/MultipleInterfaceMul.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/Sarjana.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/ICumlaude.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/IBerprestasi.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/Mahasiswa.java</file>
-            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/PBO11/Rektor.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasJumpingZombie.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasDestroyable.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasPlant.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasZombie.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasBarrier.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/Owner.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasTester.java</file>
+            <file>file:/C:/Users/faris/Documents/NetBeansProjects/ObjectOrientedProgramming/PBO/src/Experiment/tugasWalkingZombie.java</file>
         </group>
     </open-files>
 </project-private>
