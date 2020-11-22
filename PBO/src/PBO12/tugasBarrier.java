@@ -1,4 +1,4 @@
-package Experiment;
+package PBO12;
 
 /**
  *
@@ -22,6 +22,7 @@ public class tugasBarrier implements tugasDestroyable {
 
     @Override
     public void destroyed() {
+        this.strength -= this.strength*0.1;
     }
 
     public String getZombieInfo() {

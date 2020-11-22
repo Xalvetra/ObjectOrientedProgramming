@@ -1,16 +1,13 @@
-package Experiment;
-
+package PBO12;
 /**
  *
  * @author Faris Ikhlasul H
  */
 public class tugasJumpingZombie extends tugasZombie {
-
     public tugasJumpingZombie(int health, int level) {
         this.health = health;
         this.level = level;
     }
-
     public void health() {
         switch (this.level) {
             case 1:
@@ -27,12 +24,10 @@ public class tugasJumpingZombie extends tugasZombie {
                 break;
         }
     }
-
     @Override
     public void destroyed() {
-        this.health -= this.health*0.01;
+        this.health -= this.health* 0.1;
     }
-
     @Override
     public String getZombieInfo() {
         return "Jumping Zombie Data = \nHealth = "+this.health+"\nLevel: "+this.level;
