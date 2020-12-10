@@ -17,9 +17,14 @@ public class Biodata {
         this.baca = baca;
         this.makan = makan;
         this.tidur = tidur;
+        this.alamat =alamat;
     }
 
     public Biodata() {
+    }
+
+    Biodata() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getNim() {

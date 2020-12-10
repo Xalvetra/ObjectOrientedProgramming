@@ -4,7 +4,9 @@ package PBO14;
  *
  * @author Faris Ikhlasul H
  */
-public class BiodataTableModel extends AbstractModel {
+import javax.swing.table.AbstractTableModel;
+
+public class BiodataTableModel extends AbstractTableModel {
 
     private final Biodata[] data;
     private final String[] namaKolom;
@@ -18,7 +20,8 @@ public class BiodataTableModel extends AbstractModel {
             "Gender",
             "Membaca",
             "Tidur",
-            "Makan"
+            "Makan",
+            "Alamat"
         };
     }
 
@@ -36,7 +39,7 @@ public class BiodataTableModel extends AbstractModel {
         return namaKolom[column];
     }
 
-    public Class<?> getColumnClass(int columnIndes) {
+    public Class<?> getColumnClass(int columnIndex) {
         if (columnIndex < 4) {
             return String.class;
         } else {
@@ -62,6 +65,11 @@ public class BiodataTableModel extends AbstractModel {
                 return data[rowIndex].isTidur();
         }
         return null;
+    }
+
+    @Override
+    public int getColumnCount() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

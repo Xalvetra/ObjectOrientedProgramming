@@ -1,21 +1,17 @@
-package js11.tugas;
-
+package PBO14Kalkulator;
 /**
  *
  * @author ardan
  */
 public class Kalkulator extends javax.swing.JFrame {
-
     private float convert;
     private String operation;
-
     /**
      * Creates new form Kalkulator
      */
     public Kalkulator() {
         initComponents();
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
